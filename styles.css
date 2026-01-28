@@ -1,39 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-html,body{
-  height: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #222;
+}
+.card{
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search{
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.search input{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px ;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-left: 16px;
+  font-size: 18px;
 
-header{
-  width: 100%;
-  position: sticky;
-  top: 0;
-  background: white;
-  height: 66px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-.left img{
-  width: 50px;
-  height: 25px;
-}
-
-.container{
-  margin: 13px 0px;
-  padding: 0 10vw;
-}
-
-nav{
-  font-size: 12px;
-  padding-top: 14px ;
-}
-
-nav ul li{
-  list-style: none;
-  padding: 0 15px;
-}
-.banner-container{
-  width: 1200px;
 }
