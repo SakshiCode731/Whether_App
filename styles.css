@@ -86,9 +86,9 @@ body{
   font-size: 28px;
   margin-top: -6px;
 }
-.image1
-{
-  width: 60px;
-  height: 60px;
-  display: none;   
+.weather-icon{
+  width: 150px;
+  height: auto;
+  margin-top: 30px;
 }
+
